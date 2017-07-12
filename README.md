@@ -19,6 +19,3 @@
 		Press right soft key to start game and close application
 		Use the phone movements, move the ball from start point to end, avoid fall in black space.
 		6 levels, the game start again after finish.     
-
-# Report problems, or ask questions, to:
-   Carlos Olivera Terrazas  carlos.olivera.t@gmail.com
