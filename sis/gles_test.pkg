@@ -1,0 +1,39 @@
+; Installation file for Snapper application
+;
+; This is an auto-generated PKG file by Carbide.
+; This file uses variables specific to Carbide builds that will not work
+; on command-line builds. If you want to use this generated PKG file from the
+; command-line tools you will need to modify the variables with the appropriate
+; values: $(EPOCROOT), $(PLATFORM), $(TARGET)
+;
+;Language - standard language definitions
+&EN
+
+; standard SIS file header
+#{"StarMaze"},(0xE730F801),1,0,0
+
+;Localised Vendor name
+%{"Vendor-EN"}
+
+;Unique Vendor name
+:"Carlos Olivera T"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+;Files to install
+;You should change the source paths to match that of your environment
+"$(EPOCROOT)epoc32\release\$(PLATFORM)\$(TARGET)\starmaze.exe"		-"!:\sys\bin\starmaze.exe"
+"$(EPOCROOT)Epoc32\data\z\resource\apps\starmaze.rsc"		-"!:\resource\apps\starmaze.rsc"
+"$(EPOCROOT)epoc32\data\z\private\E730F801\import\apps\starmaze_reg.rsc"	-"!:\private\10003a3f\import\apps\starmaze_reg.rsc"
+"..\data\tiles.bmp" 	-"!:\private\E730F801\tiles.bmp"
+"..\data\font.bmp" 	-"!:\private\E730F801\font.bmp"
+"..\data\ball.bmp" 	-"!:\private\E730F801\ball.bmp"
+"..\data\level0.txt" 	-"!:\private\E730F801\level0.txt"
+"..\data\level1.txt" 	-"!:\private\E730F801\level1.txt"
+"..\data\level2.txt" 	-"!:\private\E730F801\level2.txt"
+"..\data\level3.txt" 	-"!:\private\E730F801\level3.txt"
+"..\data\level4.txt" 	-"!:\private\E730F801\level4.txt"
+"..\data\level5.txt" 	-"!:\private\E730F801\level5.txt"
+"..\data\level6.txt" 	-"!:\private\E730F801\level6.txt"
+"..\data\sdl_param.txt" -"c:\private\E730F801\sdl_param.txt"

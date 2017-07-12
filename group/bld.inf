@@ -1,0 +1,18 @@
+PRJ_PLATFORMS
+WINSCW ARMV5 GCCE
+
+PRJ_EXPORTS
+../data/tiles.bmp /epoc32/release/winscw/udeb/z/private/03513A94/tiles.bmp
+../data/sdl_param.txt /epoc32/release/winscw/udeb/z/private/03513A94/sdl_param.txt
+../data/level0.txt /epoc32/release/winscw/udeb/z/private/03513A94/level0.txt
+../data/level1.txt /epoc32/release/winscw/udeb/z/private/03513A94/level1.txt
+../data/level2.txt /epoc32/release/winscw/udeb/z/private/03513A94/level2.txt
+../data/level3.txt /epoc32/release/winscw/udeb/z/private/03513A94/level3.txt
+../data/level4.txt /epoc32/release/winscw/udeb/z/private/03513A94/level4.txt
+../data/level5.txt /epoc32/release/winscw/udeb/z/private/03513A94/level5.txt
+../data/level6.txt /epoc32/release/winscw/udeb/z/private/03513A94/level6.txt
+../data/font.bmp /epoc32/release/winscw/udeb/z/private/03513A94/font.bmp
+../data/ball.bmp /epoc32/release/winscw/udeb/z/private/03513A94/ball.bmp
+
+PRJ_MMPFILES
+starmaze.mmp
